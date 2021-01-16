@@ -40,7 +40,7 @@ class App extends React.Component{
   alert("Click Color updated to: " + selectedColor)
  }
 
-
+//these above methods update the state for the othe components 
   render()
   {
     

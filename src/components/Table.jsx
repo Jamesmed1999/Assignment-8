@@ -2,7 +2,7 @@ import React from 'react'
 import Row from './Row'
 import Col from './Col'
 function Table(props) {
-    
+    //this componet creates the table
     function createRows()
     {
         let arrayRows = []
@@ -31,7 +31,7 @@ function Table(props) {
             }
             return arrayCols
         
-    }
+    } // these functions create the rows and colunums based off of the state when the button is pressed
 
     
     return (

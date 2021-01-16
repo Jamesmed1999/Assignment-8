@@ -2,7 +2,7 @@ import React from 'react'
 import Row from './Row'
 
 
-
+//this component creates the cols
 
 export default function Col(props) {
     function createRows()
